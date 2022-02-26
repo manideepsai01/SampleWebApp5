@@ -14,11 +14,7 @@
       <version>3.8.1</version>
       <scope>test</scope>
 	    
-	    <properties>
-		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://13.235.77.140:9000/</sonar.host.url>
-
-	</properties>
+	  
     </dependency>
   </dependencies>
   <distributionManagement>
