@@ -15,6 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+		 <snapshotRepository>
+		    <id>NexusRepo</id>
+		    <url>http://13.233.5.151:8081/repository/sample-snapshots/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>NexusRepo</id>
+		    <url>http://13.233.5.151:8081/repository/sample-releases/</url>
+		</repository>
+  	</distributionManagement>
+  
   <build>
     <finalName>java-web-project</finalName>
   </build>
