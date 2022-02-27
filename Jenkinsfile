@@ -9,3 +9,4 @@ pipeline{
       steps {  def mavenHome= tool name: 'maven3.6.0', type: 'maven'
         sh "${mavenHome}/bin/mvn clean package"}
     }
+	}
